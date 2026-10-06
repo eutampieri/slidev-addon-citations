@@ -1,5 +1,5 @@
 {
-  "name": "slidev-addon-citations",
+  "name": "@eutampieri/slidev-addon-citations",
   "version": "0.0.12",
   "description": "add citations and biliography to slidev using citation.js",
   "scripts": {
@@ -13,10 +13,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aeudes/slidev-addon-citations.git"
+    "url": "git+https://github.com/eutampieri/slidev-addon-citations.git"
   },
   "bugs": {
-    "url": "https://github.com/aeudes/slidev-addon-citations/issues"
+    "url": "https://github.com/eutampieri/slidev-addon-citations/issues"
   },
   "keywords": [
     "slidev",
@@ -40,5 +40,8 @@
     "@slidev/types": ">=0.48.0",
     "vite": ">=4.4.0"
   },
-  "type": "module"
+  "type": "module",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
